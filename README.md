@@ -14,16 +14,18 @@ It will also create a single run file for linux.
 
 Installing and getting ready
 ============================
-npm install
-bower install
-grunt build
+    npm install
+    bower install
+    grunt build
 
 Assuming your node app executable is nw then
 
-nw build
+    nw build
 
 or
 
-nw compile to build the application in a format for release. If you would like to do signing of your app on mac then edit the sign.sh file and uncomment using it in the grunt build file.
+    nw compile
+
+to build the application in a format for release. If you would like to do signing of your app on mac then edit the sign.sh file and uncomment using it in the grunt build file.
 
 
