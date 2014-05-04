@@ -1,0 +1,30 @@
+{
+    "main": "/index.html",
+    "name": "nodeWebkitDemo",
+    "description": "TnodeWebkitDemo",
+    "keywords": [
+        "nodeWebkitDemo",
+        "demo",
+        "node-webkit"
+    ],
+    "single-instance": false,
+    "window": {
+        "title": "nodeWebkitDemo",
+        "icon": "/img/logo.icns",
+        "position": "mouse",
+        "toolbar": true,
+        "frame": true,
+        "width": 1124,
+        "height": 670,
+        "min_width": 960,
+        "min_height": 670,
+        "max_width": 2160,
+        "max_height": 3840
+    },
+    "webkit": {
+        "plugin": false
+    },
+    "dependencies": {
+    },
+    "devDependencies": {}
+}

@@ -1,0 +1,6 @@
+[submodule "makeself"]
+	path = makeself
+	url = https://github.com/megastep/makeself.git
+[submodule "yoursway-create-dmg"]
+	path = yoursway-create-dmg
+	url = https://github.com/andreyvit/yoursway-create-dmg.git

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>Afrihost Network Tester</title>
+    <meta charset="utf-8">
+    <link href="css/nodeWebkitDemo.css" rel="stylesheet" type="text/css" media="all" />
+    <style>
+        body {
+            padding-top: 50px;
+        }
+        .starter-template {
+            padding: 40px 15px;
+            text-align: center;
+        }
+        .tagButton {
+            width:300px;
+        }
+        caption {
+            font-weight: bold;
+            font-size: 32px;
+        }
+    </style>
+    <script>
+        var dir = process.env.PWD;
+        var gui = require('nw.gui');
+        var App = gui.App;
+        //		console.log(dir);
+        //		console.log(JSON.stringify(process.env));
+        //		App.setCrashDumpDir(dir);
+        //		//App.crashBrowser();
+    </script>
+
+    <!-- compiled JS --><% scripts.forEach( function ( file ) { %>
+    <script type="text/javascript" src="<%= file %>" ></script>
+
+    <% }); %>
+
+    <script type="text/javascript">
+       // angular.bootstrap(document, ['app']);
+    </script>
+    <script src="http://localhost:35729/livereload.js"></script>
+</head>
+<body>
+<div ui-view >
+    <div class="wait" >
+
+        <i class="fa fa-cog fa-spin"></i>
+    </div>
+</div>
+</body>
+</html>
