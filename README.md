@@ -22,10 +22,15 @@ Assuming your node app executable is nw then
 
     nw build
 
+You can also do a watch on the build with live reload by doing.
+
+    grunt build
+    grunt watch
+    nw build
+
 or
 
     nw compile
 
 to build the application in a format for release. If you would like to do signing of your app on mac then edit the sign.sh file and uncomment using it in the grunt build file.
-
 
